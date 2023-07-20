@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Expenses chart component</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="header container">
+      <p class="header-text">My balance</p>
+      <img src="images/logo.svg" alt="logo" />
+      <p class="header-text header-money">$921.48</p>
+    </header>
+    <main class="main container">
+      <h1>Spending - Last 7 days</h1>
+      <section class="chart">
+        <div class="chart-components"><div class="price"></div></div>
+        <div class="chart-components"><div class="price"></div></div>
+        <div class="chart-components"><div class="price"></div></div>
+        <div class="chart-components"><div class="price"></div></div>
+        <div class="chart-components"><div class="price"></div></div>
+        <div class="chart-components"><div class="price"></div></div>
+        <div class="chart-components"><div class="price"></div></div>
+        <p class="chart-text">mon</p>
+        <p class="chart-text">tue</p>
+        <p class="chart-text">wed</p>
+        <p class="chart-text">thu</p>
+        <p class="chart-text">fri</p>
+        <p class="chart-text">sat</p>
+        <p class="chart-text">sun</p>
+      </section>
+      <section class="total">
+        <p class="total-text">Total this month</p>
+        <p class="total-text-past">
+          <span class="increase">+2.4%</span> <br />from last month
+        </p>
+        <p class="total-money">$478.33</p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      Copyright &copy;
+      <script>
+        document.write(new Date().getFullYear());
+      </script>
+      sabasako
+      <a href="https://github.com/sabasako/" class="github-logo" target="_blank"
+        ><ion-icon class="github-logo" name="logo-github"></ion-icon
+      ></a>
+    </footer>
+
+    <!-- For Ionicio icons usage -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
