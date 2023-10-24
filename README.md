@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-* [Solution](https://github.com/sabasako/Age-Calculator/)
-* [Watch Live](https://github.com/sabasako/Expenses-Chart-Component)
+* [Solution](https://github.com/sabasako/Expenses-Chart-Component)
+* [Watch Live](https://sabasako.github.io/Expenses-Chart-Component/)
 
 ### Built with
 
